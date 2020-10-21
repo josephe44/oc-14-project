@@ -1,53 +1,66 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  height: 100vh;
-  min-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(/Project/images/landImage.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #1d3557;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../images/landImage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1d3557;
 }
-a{
-  font-size: 1em !important;
-  font-weight: 500 !important;
-  color: #0357A4 !important;
+
+a {
+    font-size: 1em !important;
+    font-weight: 500 !important;
+    color: #0357A4 !important;
 }
+
+
 /* nav head */
+
 .navbar {
-  background: #fff !important;
+    background: #fff !important;
 }
+
 .navbar-brand {
-  margin-left: 4em;
+    margin-left: 4em;
 }
+
 .navbar-brand img {
-  padding: 0px !important;
+    padding: 0px !important;
 }
+
 .navbar-nav {
-  margin-right: 5em;
+    margin-right: 5em;
 }
+
 .nav-item {
-  padding-left: 1.5em !important;
+    padding-left: 1.5em !important;
 }
+
+
 /* hero styling */
+
 .hero-text {
-  margin-top: 15em;
+    margin-top: 15em;
 }
+
 .hero-text-p {
-  color: #fff;
-  font-size: 3em;
-  font-weight: 100;
-  line-height: 22px;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 22px;
 }
+
 .hero-text-p1 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: 500;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
 }
