@@ -21,7 +21,7 @@
    <!--The Navbar of Admaro-->
   <header>
     <img src="images/logo.png">
-    <div class="toggle"></div>
+    <div class="toggle"><img src="./images/menu.png"></div>
     <ul class="menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
@@ -118,5 +118,13 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script>
+     function toggleMenu() {
+      var menuToggle = document.querySelector('.toggle');
+      var menu = document.querySelector('.menu');
+      menuToggle.classList.toggle('active');
+      menu.classList.toggle('active');
+    }; 
+    </script>
 </body>
 </html>

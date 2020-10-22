@@ -21,12 +21,17 @@ header {
   top: 0;
   left: 0;
   width: 100vw;
-  padding: 8px 150px;
+  padding: 25px 150px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
+}
+.toggle img {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
 }
 header.sticky {
   background: #fff;
@@ -36,6 +41,7 @@ header.sticky {
 header .menu {
   position: relative;
   display: flex;
+  display: none;
 }
 header .menu li {
   position: relative;
