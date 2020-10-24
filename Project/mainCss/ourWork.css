@@ -1,7 +1,7 @@
 .our-work {
   height: 50vh;
   width: 100%;
-  background-color: rgb(0, 85, 165);
+  background-color: #23298f;
 }
 .our-work-text {
   padding-top: 15%;
@@ -23,8 +23,17 @@
   height: 350px;
 }
 .card-img-overlay {
-  background-color: rgb(0, 85, 165) !important;
+  background-color: #23298f !important;
   cursor: pointer;
+}
+.even-1 {
+  background-color: #f5b8c5 !important;
+}
+.odd-1 {
+  background-color: #eb3e43 !important;
+}
+.even-2 {
+  background-color: #d5d877 !important;
 }
 .card-img-overlay:hover {
   background-color: rgb(0, 0, 0, 0.3) !important;

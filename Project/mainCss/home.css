@@ -21,7 +21,7 @@ header {
   top: 0;
   left: 0;
   width: 100vw;
-  padding: 25px 150px;
+  padding: 18px 150px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,6 @@ header {
 .toggle img {
   width: 30px;
   height: auto;
-  cursor: pointer;
 }
 header.sticky {
   background: #fff;
