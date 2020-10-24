@@ -1,0 +1,53 @@
+.our-work {
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(0, 85, 165);
+}
+.our-work-text {
+  padding-top: 15%;
+}
+.our-work-text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.our-work-con {
+  padding: 20px;
+}
+.card {
+  width:500px !important;
+  z-index: 1;
+}
+.card-img-top {
+  width:338px;
+  height: 350px;
+}
+.card-img-overlay {
+  background-color: rgb(0, 85, 165) !important;
+  cursor: pointer;
+}
+.card-img-overlay:hover {
+  background-color: rgb(0, 0, 0, 0.3) !important;
+}
+.card-title {
+  font-size: 12px;
+  color: #fff;
+}
+.card-text {
+  color: #fff;
+  padding-top: 70px;
+  line-height: 10px;
+}
+.card-text-one {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+.work-btn a {
+  font-size: 12px;
+  color: #fff !important;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+}
