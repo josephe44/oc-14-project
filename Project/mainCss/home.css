@@ -84,6 +84,7 @@ header.sticky .menu li a:hover {
 }
 /* change ham image to close */
 .showClose {
+  filter: invert(0);
   z-index: 3;
   background-image: url(../images/close.png);
 }
