@@ -6,13 +6,14 @@
 body {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: auto smooth;
+    overflow-x: hidden;
 }
 
 
 
 
 /* nav head */
-header img {
+/* header img {
   width: 100px;
   height: 50px;
 }
@@ -63,9 +64,84 @@ header.sticky .menu li a {
 }
 header.sticky .menu li a:hover {
   color: #9d1c6c;
+} */
+
+.ham {
+  position: absolute;
+  /* always keep ham on top of everything */
+  z-index: 1;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  /* show the menu image */
+  background-image: url(../images/bars-solid.svg);
+  background-size: 100%;
+  filter: invert(1);
+}
+/* change ham image to close */
+.showClose {
+  z-index: 3;
+  background-image: url(../images/close.png);
 }
 
+.navbar {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f5b8c5;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  /* hide the menu above the screen by default */
+  transform: translateY(-100%);
+  /* transition adds a little animation when sliding in and out the menu */
+  transition: transform 0.5s ease;
+}
+
+.showNav {
+  /* show the menu */
+  transform: translateY(0);
+}
+
+/* basic nav styling below */
+
+.navbar ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar ul li a {
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus {
+  border-bottom: 2px solid white;
+}
+
+
+
+
+
 /* hero styling */
+.hero-display {
+  display: block;
+}
 .hero-left, .hero-right {
   height: 50vh;
   width: 100%;
