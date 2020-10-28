@@ -254,3 +254,73 @@ header.sticky .menu li a:hover {
     height: 100vh;
   }
 }
+
+@media screen and (max-width:768px) {
+  .hero-left, .hero-right {
+    height: 50vh;
+  }
+  .hero-left-1, .hero-right-1 {
+    height: 50vh;
+  }
+  .hero-left-2, .hero-right-2 {
+    height: 50vh;
+  }
+  .ham-1 {
+    filter: invert(0);
+  }
+  /* hero text styling */
+  .hero-left-text-1 {
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+  .hero-left-text-1 h4 {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .hero-left-text-1 h3 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .hero-left-text-1 .hero-num {
+    align-content: center;
+    padding-top: 30px;
+    line-height: 0px;
+    padding-left: 10px;
+  }
+  .hero-left-text-1 .hero-num p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+  .hero-left-text-1 span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    padding-left: 20px;
+    background-color: #000;
+  }
+  .hero-btn {
+    font-size: 12px;
+    padding-top: 50%;
+    padding-left: 1%;
+    overflow: hidden; 
+  }
+  .hero-btn a {
+    color: #fff !important;
+    text-decoration: none;
+
+  }
+  .hero-btn a:hover {
+    padding: 15px;
+    background: rgb(0, 85, 165, 0.7);
+  }
+  .hero-btn span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    margin-top: 5px;
+    margin-left: 150px;
+    background-color: #fff;
+  }
+}

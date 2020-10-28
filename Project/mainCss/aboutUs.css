@@ -15,11 +15,24 @@
 .aboutUs {
   padding: 50px 20px;
 }
+.card {
+  border: none;
+  padding: 20px;
+  text-align: justify;
+}
+.card-body {
+  padding: 10px;
+}
+.card-text {
+  text-align: justify;
+}
 .big-text {
   font-size: 25px;
+  text-align: justify;
 }
 .small-text {
   font-size: 14px;
+  text-align: justify;
 }
 .about-2{
   background-color: #d5d877;
@@ -30,4 +43,24 @@
 }
 .head {
   padding: 20px 20px;
+}
+.link a {
+  text-decoration: none;
+  color: red;
+  margin: 10px 10px;
+  font-size: 12px;
+}
+
+
+@media screen and (max-width:768px) {
+  .our-about-text {
+    padding-top: 40%;
+  }
+  .card {
+    padding: 20px;
+    text-align: justify;
+  }
+  .col-md-3 {
+    padding-bottom: 20px;
+  }
 }
