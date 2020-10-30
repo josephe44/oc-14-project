@@ -53,6 +53,7 @@ body {
 .showNav {
   /* show the menu */
   transform: translateY(0);
+  overflow: hidden;
 }
 
 /* basic nav styling below */
