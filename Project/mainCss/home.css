@@ -11,6 +11,17 @@ body {
 
 /* styling navbar */
 
+.logo {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  margin:10px 0px 0px 50px;
+  
+  background-image: url(../images/logo.png);
+}
+
 .ham {
   position: absolute;
   /* always keep ham on top of everything */
@@ -216,8 +227,8 @@ body {
   }
   /* hero text styling */
   .hero-left-text-1 {
-    padding-top: 50px;
-    padding-left: 10px;
+    padding-top: 90px;
+    padding-left: 30px;
   }
   .hero-left-text-1 h4 {
     font-family: inherit;
