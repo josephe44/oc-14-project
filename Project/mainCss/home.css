@@ -5,7 +5,6 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: auto smooth;
     overflow-x: hidden;
 }
 
@@ -17,7 +16,7 @@ body {
   width: 100px;
   height: 50px;
   cursor: pointer;
-  margin:10px 0px 0px 50px;
+  margin:10px 0px 0px 80px;
   
   background-image: url(../images/logo.png);
 }
@@ -37,6 +36,7 @@ body {
   background-image: url(../images/bars-solid.svg);
   background-size: 100%;
   filter: invert(1);
+  
 }
 /* change ham image to close */
 .showClose {
@@ -47,18 +47,18 @@ body {
 
 .navbar {
   z-index: 2;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: #f5b8c5;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   color: white;
+  overflow-y: hidden;
   /* hide the menu above the screen by default */
   transform: translateY(-100%);
   /* transition adds a little animation when sliding in and out the menu */
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
 }
 
 .showNav {

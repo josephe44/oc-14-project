@@ -24,6 +24,9 @@
   text-align: justify;
   
 }
+.avatar img {
+  width: 300px;
+}
 #testimonial {
   
   padding: 10px 0 10px 0;
